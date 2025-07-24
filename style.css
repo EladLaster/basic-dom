@@ -15,7 +15,7 @@ body{
     width: 500px;
     height: 500px;
     
-    position:absolute;
+    position:relative;
     margin-top: -300px;
     top:50%;
 
@@ -32,7 +32,8 @@ body{
     position: absolute;
     width: 80px;
     height: 80px;
-    
+    left: 0;
+    top: 0;
     background-color: #27ae60;
     border-radius: 50%;
 }
@@ -72,3 +73,15 @@ body{
 .arrow:active{
     background-color: #7f8c8d
 }
+
+.my-header {
+  color: #c0392b;
+  font-family: Helvetica;
+}
+
+.my-second-header {
+    color:#27ae60;
+    font-family:Helvetica;
+    text-shadow: 3px 1px 2px black;
+}
+
